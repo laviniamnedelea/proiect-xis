@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<?xml-model href="file.dtd" type="application/xml-dtd"?>
+<agentie nume="CoolModels" CUI="4183199" data-infintare="011/09/2017">
+
+    <fotomodele>
+        <fotomodel cnp="1991002460079">
+            <nume>Mircea</nume>
+            <inaltime>182</inaltime>
+            <greutate>84</greutate>
+            <culoarePar>saten</culoarePar>
+            <sex>masculint</sex>
+            <telefon>0736070502</telefon>
+            <data-nasterii>02.10.1999</data-nasterii>
+        </fotomodel>
+        <fotomodel cnp="2980417431258">
+            <nume>Ana</nume>
+            <inaltime>175</inaltime>
+            <greutate>50</greutate>
+            <culoarePar>blond</culoarePar>
+            <sex>feminin</sex>
+            <telefon>07123123123</telefon>
+            <data-nasterii>17.04.1998</data-nasterii>
+        </fotomodel>
+        <fotomodel cnp="2990101431258">
+            <nume>Alexandra</nume>
+            <inaltime>160</inaltime>
+            <greutate>45</greutate>
+            <culoarePar>negru</culoarePar>
+            <sex>feminin</sex>
+            <telefon>07123123133</telefon>
+            <data-nasterii>01.01.1998</data-nasterii>
+        </fotomodel>
+        <fotomodel cnp="1950417431258">
+            <nume>Dan</nume>
+            <inaltime>195</inaltime>
+            <greutate>90</greutate>
+            <culoarePar>blond</culoarePar>
+            <sex>masculin</sex>
+            <telefon>07123123555</telefon>
+            <data-nasterii>17.04.1995</data-nasterii>
+        </fotomodel>
+    </fotomodele>
+    <evenimente>
+        <eveniment>
+            <detalii>
+                <data>3/23/2022</data>
+                <durata>5</durata>
+                <denumire>Coca Cola advertisement </denumire>
+                <descriere>Un eveniment foarte fumos, pentru a promova coca cola.</descriere>
+            </detalii>
+            <fotomodele>
+                <fotomodel cnp="2990101431258">
+                    <nume>Alexandra</nume>
+                    <inaltime>160</inaltime>
+                    <greutate>45</greutate>
+                    <culoarePar>negru</culoarePar>
+                    <sex>feminin</sex>
+                    <telefon>07123123133</telefon>
+                    <data-nasterii>01.01.1998</data-nasterii>
+                </fotomodel>
+                <fotomodel cnp="1950417431258">
+                    <nume>Dan</nume>
+                    <inaltime>195</inaltime>
+                    <greutate>90</greutate>
+                    <culoarePar>blond</culoarePar>
+                    <sex>masculin</sex>
+                    <telefon>07123123555</telefon>
+                    <data-nasterii>17.04.1995</data-nasterii>
+                </fotomodel>
+            </fotomodele>
+        </eveniment>
+
+        <eveniment>
+            <detalii>
+                <data>5/23/2022</data>
+                <durata>3.5</durata>
+                <denumire>Reclama servetele umede </denumire>
+                <descriere>Un eveniment foarte fumos, pentru a promova ervetelele umede Pandor.
+                </descriere>
+            </detalii>
+            <fotomodele>
+                <fotomodel cnp="1991002460079">
+                    <nume>Mircea</nume>
+                    <inaltime>182</inaltime>
+                    <greutate>84</greutate>
+                    <culoarePar>saten</culoarePar>
+                    <sex>masculint</sex>
+                    <telefon>0736070502</telefon>
+                    <data-nasterii>02.10.1999</data-nasterii>
+                </fotomodel>
+                <fotomodel cnp="2980417431258">
+                    <nume>Ana</nume>
+                    <inaltime>175</inaltime>
+                    <greutate>50</greutate>
+                    <culoarePar>blond</culoarePar>
+                    <sex>feminin</sex>
+                    <telefon>07123123123</telefon>
+                    <data-nasterii>17.04.1998</data-nasterii>
+                </fotomodel>
+            </fotomodele>
+        </eveniment>
+        <eveniment>
+            <detalii>
+                <data>6/23/2022</data>
+                <durata>7.5</durata>
+                <denumire>Defilare de moda casa poporului </denumire>
+                <descriere>Defilare de moda la casa poporului pentru prezentare noi colectii de haine JantoPreti.
+                </descriere>
+            </detalii>
+            <fotomodele>
+                <fotomodel cnp="1991002460079">
+                    <nume>Mircea</nume>
+                    <inaltime>182</inaltime>
+                    <greutate>84</greutate>
+                    <culoarePar>saten</culoarePar>
+                    <sex>masculint</sex>
+                    <telefon>0736070502</telefon>
+                    <data-nasterii>02.10.1999</data-nasterii>
+                </fotomodel>
+                <fotomodel cnp="2980417431258">
+                    <nume>Ana</nume>
+                    <inaltime>175</inaltime>
+                    <greutate>50</greutate>
+                    <culoarePar>blond</culoarePar>
+                    <sex>feminin</sex>
+                    <telefon>07123123123</telefon>
+                    <data-nasterii>17.04.1998</data-nasterii>
+                </fotomodel>
+                <fotomodel cnp="2990101431258">
+                    <nume>Alexandra</nume>
+                    <inaltime>160</inaltime>
+                    <greutate>45</greutate>
+                    <culoarePar>negru</culoarePar>
+                    <sex>feminin</sex>
+                    <telefon>07123123133</telefon>
+                    <data-nasterii>01.01.1998</data-nasterii>
+                </fotomodel>
+            </fotomodele>
+        </eveniment>
+    </evenimente>
+</agentie>

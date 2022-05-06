@@ -1,0 +1,151 @@
+{
+  "agentie": {
+    "nume": "CoolModels",
+    "CUI": "4183199",
+    "data-infintare": "011/09/2017",
+    "fotomodele": [
+      {
+        "cnp": "1991002460079",
+        "nume": "Mircea",
+        "inaltime": "182",
+        "greutate": "84",
+        "culoarePar": "saten",
+        "sex": "masculint",
+        "telefon": "0736070502",
+        "data-nasterii": "02.10.1999"
+      },
+      {
+        "cnp": "2980417431258",
+        "nume": "Ana",
+        "inaltime": "175",
+        "greutate": "50",
+        "culoarePar": "blond",
+        "sex": "feminin",
+        "data-nasterii": "17.04.1998",
+        "telefon": "07123123123"
+      },
+      {
+        "cnp": "2990101431258",
+        "nume": "Alexandra",
+        "inaltime": "160",
+        "greutate": "45",
+        "culoarePar": "negru",
+        "sex": "feminin",
+        "data-nasterii": "01.01.1998",
+        "telefon": "07123123133"
+      },
+      {
+        "cnp": "1950417431258",
+        "nume": "Dan",
+        "inaltime": "195",
+        "greutate": "90",
+        "culoarePar": "blond",
+        "sex": "masculin",
+        "data-nasterii": "17.04.1995",
+        "telefon": "07123123555"
+      }
+    ],
+    "evenimente": [
+      {
+        "detalii": {
+          "data": "3/23/2022",
+          "durata": "5",
+          "denumire": "Coca Cola advertisement ",
+          "descriere": "Un eveniment foarte fumos, pentru a promova coca cola."
+        },
+        "fotomodele": [
+          {
+            "-cnp": "2990101431258",
+            "nume": "Alexandra",
+            "inaltime": "160",
+            "greutate": "45",
+            "culoarePar": "negru",
+            "sex": "feminin",
+            "data-nasterii": "01.01.1998",
+            "telefon": "07123123133"
+          },
+          {
+            "-cnp": "1950417431258",
+            "nume": "Dan",
+            "inaltime": "195",
+            "greutate": "90",
+            "culoarePar": "blond",
+            "sex": "masculin",
+            "data-nasterii": "17.04.1995",
+            "telefon": "07123123555"
+          }
+        ]
+      },
+      {
+        "detalii": {
+          "data": "5/23/2022",
+          "durata": "3.5",
+          "denumire": "Reclama servetele umede ",
+          "descriere": "Un eveniment foarte fumos, pentru a promova ervetelele umede Pandor.\n                "
+        },
+        "fotomodele": [
+          {
+            "-cnp": "1991002460079",
+            "nume": "Mircea",
+            "inaltime": "182",
+            "greutate": "84",
+            "culoarePar": "saten",
+            "sex": "masculint",
+            "telefon": "0736070502",
+            "data-nasterii": "02.10.1999"
+          },
+          {
+            "-cnp": "2980417431258",
+            "nume": "Ana",
+            "inaltime": "175",
+            "greutate": "50",
+            "culoarePar": "blond",
+            "sex": "feminin",
+            "data-nasterii": "17.04.1998",
+            "telefon": "07123123123"
+          }
+        ]
+      },
+      {
+        "detalii": {
+          "data": "6/23/2022",
+          "durata": "7.5",
+          "denumire": "Defilare de moda casa poporului ",
+          "descriere": "Defilare de moda la casa poporului pentru prezentare noi colectii de haine JantoPreti.\n                "
+        },
+        "fotomodele": [
+          {
+            "-cnp": "1991002460079",
+            "nume": "Mircea",
+            "inaltime": "182",
+            "greutate": "84",
+            "culoarePar": "saten",
+            "sex": "masculint",
+            "telefon": "0736070502",
+            "data-nasterii": "02.10.1999"
+          },
+          {
+            "-cnp": "2980417431258",
+            "nume": "Ana",
+            "inaltime": "175",
+            "greutate": "50",
+            "culoarePar": "blond",
+            "sex": "feminin",
+            "data-nasterii": "17.04.1998",
+            "telefon": "07123123123"
+          },
+          {
+            "-cnp": "2990101431258",
+            "nume": "Alexandra",
+            "inaltime": "160",
+            "greutate": "45",
+            "culoarePar": "negru",
+            "sex": "feminin",
+            "data-nasterii": "01.01.1998",
+            "telefon": "07123123133"
+          }
+        ]
+      }
+    ]
+  }
+}

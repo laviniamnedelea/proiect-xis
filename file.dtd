@@ -1,0 +1,21 @@
+<!ELEMENT agentie (fotomodele,evenimente)>
+<!ATTLIST agentie nume CDATA #REQUIRED>
+<!ATTLIST agentie CUI CDATA #REQUIRED>
+<!ATTLIST agentie data-infintare CDATA #REQUIRED>
+<!ELEMENT fotomodele (fotomodel+)>
+<!ELEMENT fotomodel (nume,inaltime,greutate,culoarePar,sex,telefon,data-nasterii)>
+<!ATTLIST fotomodel cnp CDATA #REQUIRED>
+<!ELEMENT nume (#PCDATA)>
+<!ELEMENT inaltime (#PCDATA)>
+<!ELEMENT greutate (#PCDATA)>
+<!ELEMENT culoarePar (#PCDATA)>
+<!ELEMENT sex (#PCDATA)>
+<!ELEMENT telefon (#PCDATA)>
+<!ELEMENT data-nasterii (#PCDATA)>
+<!ELEMENT evenimente (eveniment+)>
+<!ELEMENT eveniment (detalii,fotomodele)>
+<!ELEMENT detalii (data,durata,denumire,descriere)>
+<!ELEMENT data (#PCDATA)>
+<!ELEMENT durata (#PCDATA)>
+<!ELEMENT denumire (#PCDATA)>
+<!ELEMENT descriere (#PCDATA)>
