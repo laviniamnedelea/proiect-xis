@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="EvidentaAgentieFotomodeleHanghiucMircea.dtd" xmlns:wmh="http://www.wmhelp.com/2003/eGenerator" elementFormDefault="qualified" targetNamespace="EvidentaAgentieFotomodeleHanghiucMircea.dtd">
+  <xs:element name="agentie">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="fotomodele"/>
+        <xs:element ref="evenimente"/>
+      </xs:sequence>
+      <xs:attribute name="nume" type="xs:string" use="required"/>
+      <xs:attribute name="CUI" type="xs:string" use="required"/>
+      <xs:attribute name="data-infintare" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fotomodele">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="fotomodel" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fotomodel">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="nume"/>
+        <xs:element ref="inaltime"/>
+        <xs:element ref="greutate"/>
+        <xs:element ref="culoarePar"/>
+        <xs:element ref="sex"/>
+        <xs:element ref="telefon"/>
+        <xs:element ref="data-nasterii"/>
+      </xs:sequence>
+      <xs:attribute name="cnp" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="nume" type="xs:string"/>
+  <xs:element name="inaltime" type="xs:string"/>
+  <xs:element name="greutate" type="xs:string"/>
+  <xs:element name="culoarePar" type="xs:string"/>
+  <xs:element name="sex" type="xs:string"/>
+  <xs:element name="telefon" type="xs:string"/>
+  <xs:element name="data-nasterii" type="xs:string"/>
+  <xs:element name="evenimente">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="eveniment" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="eveniment">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="detalii"/>
+        <xs:element ref="fotomodele"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="detalii">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="data"/>
+        <xs:element ref="durata"/>
+        <xs:element ref="denumire"/>
+        <xs:element ref="descriere"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="data" type="xs:string"/>
+  <xs:element name="durata" type="xs:string"/>
+  <xs:element name="denumire" type="xs:string"/>
+  <xs:element name="descriere" type="xs:string"/>
+</xs:schema>
