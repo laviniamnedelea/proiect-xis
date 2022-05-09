@@ -23,20 +23,6 @@ async function showContent(filename) {
 	textArea.innerHTML = string;
 }
 
-function readTextFile(file) {
-	var rawFile = new XMLHttpRequest();
-	rawFile.open("GET", file, false);
-	rawFile.onreadystatechange = function () {
-		if (rawFile.readyState === 4) {
-			if (rawFile.status === 200 || rawFile.status == 0) {
-				var allText = rawFile.responseText;
-				return allText;
-			}
-		}
-	};
-	rawFile.send(null);
-}
-
 async function parseJson() {
 	let data = await getTextFromGit(
 		"EvidentaAgentieFotomodeleHanghiucMircea.json"
@@ -207,4 +193,26 @@ function onUploadFileXml() {
 	function onReaderLoad(event) {
 		uploadedXml = event.target.result;
 	}
+}
+
+async function applyXsl() {
+	// const xsl = await getTextFromGit(
+	// 	"EvidentaAgentieFotomodeleHanghiucMircea.xsl"
+	// );
+	// const node1 = document.getElementById("node1");
+	// const node2 = document.getElementById("node2");
+	// node1.innerHTML = xsl;
+	// xsltProcessor = new XSLTProcessor();
+	// xsltProcessor.importStylesheet(node1);
+	// let xml = await getTextFromGit("EvidentaAgentieFotomodeleHanghiucMircea.xsl");
+	// if (uploadedXml && filename.search("xml") > -1) {
+	// 	xml = uploadedXml;
+	// }
+	// node2.innerHTML = xml;
+	// resultDocument = xsltProcessor.transformToFragment(node2, document);
+	// console.log(resultDocument);
+	// document
+	// 	.getElementById("displayXsl")
+	// 	.insertAdjacentHTML("beforeend", resultDocument);
+	window.open(url, "_blank").focus();
 }

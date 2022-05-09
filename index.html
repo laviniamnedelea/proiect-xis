@@ -47,10 +47,14 @@
 		<button class="button dif" onclick="parseXml()">Parse XML</button>
 		<button class="button upload" onclick="uploadJson()">Upload JSON</button>
 		<button class="button upload" onclick="uploadXml()">Upload XML</button>
+		<button class="button upload" onclick="applyXsl()">Apply XSL</button>
 		<br />
 		<pre id="textArea" class="code hide"></pre>
 		<div id="parsed"></div>
 		<input id="upload" type="file" style="display: none" accept=".json" />
 		<input id="uploadXml" type="file" style="display: none" accept=".xml" />
+		<div id="displayXsl"></div>
+		<div id="node1" style="display: none"></div>
+		<div id="node2" style="display: none"></div>
 	</body>
 </html>
