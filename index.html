@@ -3,6 +3,7 @@
 	<head>
 		<link rel="stylesheet" href="style.css" />
 		<script src="script.js" defer></script>
+		<script src="xmlToJson.js"></script>
 	</head>
 	<body>
 		<h1>Proiect XIS 2022 - HM</h1>
@@ -45,9 +46,11 @@
 		<button class="button dif" onclick="parseJson()">Parse JSON</button>
 		<button class="button dif" onclick="parseXml()">Parse XML</button>
 		<button class="button upload" onclick="uploadJson()">Upload JSON</button>
+		<button class="button upload" onclick="uploadXml()">Upload XML</button>
 		<br />
 		<pre id="textArea" class="code hide"></pre>
 		<div id="parsed"></div>
 		<input id="upload" type="file" style="display: none" accept=".json" />
+		<input id="uploadXml" type="file" style="display: none" accept=".xml" />
 	</body>
 </html>
