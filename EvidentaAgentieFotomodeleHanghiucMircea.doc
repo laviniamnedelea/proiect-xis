@@ -1,9 +1,9 @@
 Tema proiect: Evidenta informatiilor legate de o agentie de fotomodele cu urmarirea participarii la anumite evenimente.
 
 Definire constrangeri:
-- fiecare aregentia are fotmodele (0 sau n)
+- fiecare agentie are fotomodele (0 sau n)
 - fiecare agentia are evenimente (0 sau n)
 - fiecare model este caracterizat de inaltime (cm), greutate (kg), culoare par, culoare ochi, sex, data nasterii, cnp
-- fiecare eveniment este caracterizat de data, locatie, durata, denumire, si lsita de fotomodele care participa
-- un fotomodel paote participa la mai multe evenimente
+- fiecare eveniment este caracterizat de data, locatie, durata, denumire, si lista de fotomodele care participa
+- un fotomodel poate participa la mai multe evenimente
 - agentia are o lista cu toate fotomodelele si o lista cu toate evenimentele

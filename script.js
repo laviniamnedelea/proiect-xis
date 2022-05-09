@@ -196,24 +196,6 @@ function onUploadFileXml() {
 }
 
 async function applyXsl() {
-	// const xsl = await getTextFromGit(
-	// 	"EvidentaAgentieFotomodeleHanghiucMircea.xsl"
-	// );
-	// const node1 = document.getElementById("node1");
-	// const node2 = document.getElementById("node2");
-	// node1.innerHTML = xsl;
-	// xsltProcessor = new XSLTProcessor();
-	// xsltProcessor.importStylesheet(node1);
-	// let xml = await getTextFromGit("EvidentaAgentieFotomodeleHanghiucMircea.xsl");
-	// if (uploadedXml && filename.search("xml") > -1) {
-	// 	xml = uploadedXml;
-	// }
-	// node2.innerHTML = xml;
-	// resultDocument = xsltProcessor.transformToFragment(node2, document);
-	// console.log(resultDocument);
-	// document
-	// 	.getElementById("displayXsl")
-	// 	.insertAdjacentHTML("beforeend", resultDocument);
 	window
 		.open("https://mirceah99.github.io/proiect-xis/xmlWithXsl.xml", "_blank")
 		.focus();
