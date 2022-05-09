@@ -1,14 +1,19 @@
 const textArea = document.getElementById("textArea");
 const parsed = document.getElementById("parsed");
 let uploadedJson = null;
+
+document.getElementById("upload").addEventListener("change", onUploadFile);
+
 async function showContent(filename) {
-	getTextFromGit(filename).then((text) => {
-		let string;
-		string = text.replaceAll("<", "&lt;");
-		string = string.replaceAll(">", "&gt;");
-		textArea.classList.remove("hide");
-		textArea.innerHTML = string;
-	});
+	let text = await getTextFromGit(filename);
+	if (uploadedJson && filename.search("json") > -1) {
+		text = uploadedJson;
+	}
+	let string;
+	string = text.replaceAll("<", "&lt;");
+	string = string.replaceAll(">", "&gt;");
+	textArea.classList.remove("hide");
+	textArea.innerHTML = string;
 }
 
 function readTextFile(file) {
@@ -29,7 +34,7 @@ async function parseJson() {
 	let data = await getTextFromGit(
 		"EvidentaAgentieFotomodeleHanghiucMircea.json"
 	);
-	data = JSON.parse(data);
+	data = uploadedJson ? JSON.parse(uploadedJson) : JSON.parse(data);
 	parsed.innerHTML = `
     <h2>JSON Fotomodele agentiei ${data.agentie.nume} cui(${data.agentie.CUI}) infintata la(${data.agentie["data-infintare"]}):</h2>
 			<table id="models"></table>
@@ -105,3 +110,16 @@ function addRowToTable(table, data) {
 	});
 }
 async function parseXml() {}
+function uploadJson() {
+	document.getElementById("upload").click();
+}
+
+function onUploadFile() {
+	var reader = new FileReader();
+	reader.onload = onReaderLoad;
+	reader.readAsText(event.target.files[0]);
+
+	function onReaderLoad(event) {
+		uploadedJson = event.target.result;
+	}
+}

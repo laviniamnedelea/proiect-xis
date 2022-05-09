@@ -23,7 +23,9 @@
 .button.dif {
 	background-color: rgb(137, 50, 138);
 }
-
+.button.upload {
+	background-color: rgb(218, 121, 11);
+}
 table {
 	font-family: arial, sans-serif;
 	border-collapse: collapse;
