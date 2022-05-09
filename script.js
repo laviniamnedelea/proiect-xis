@@ -1,5 +1,6 @@
 const textArea = document.getElementById("textArea");
 const parsed = document.getElementById("parsed");
+let uploadedJson = null;
 async function showContent(filename) {
 	getTextFromGit(filename).then((text) => {
 		let string;
@@ -30,7 +31,7 @@ async function parseJson() {
 	);
 	data = JSON.parse(data);
 	parsed.innerHTML = `
-    <h2>Fotomodele agentiei ${data.agentie.nume} cui(${data.agentie.CUI}) infintata la(${data.agentie["data-infintare"]}):</h2>
+    <h2>JSON Fotomodele agentiei ${data.agentie.nume} cui(${data.agentie.CUI}) infintata la(${data.agentie["data-infintare"]}):</h2>
 			<table id="models"></table>
     <h2>Evenimentele:</h2>
     <table id="events"></table>`;
@@ -103,3 +104,4 @@ function addRowToTable(table, data) {
 		row.insertCell(index).innerHTML = element;
 	});
 }
+async function parseXml() {}
