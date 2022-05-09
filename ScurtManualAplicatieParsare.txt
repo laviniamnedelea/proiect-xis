@@ -1,0 +1,5 @@
+Pentru parsare am folosit formatul JSON si limbajul javascript. 
+Conversia xml-ului in json a fost facuta cu ajutorul bibliotecii X2JS.
+Am folosit functia forEach pentru a itera prin fotomodelele din json, am adaugat campurile specifice in coloanele potrivite. 
+Totodata am interat si prin fotomodelele unui eveniment pentru a le reduce la un singur string care contine numele acestora.
+
