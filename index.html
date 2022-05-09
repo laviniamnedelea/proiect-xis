@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<link rel="stylesheet" href="style.css" />
-		<script src="script.js"></script>
+		<script src="script.js" defer></script>
 	</head>
 	<body>
 		<h1>Proiect XIS 2022 - HM</h1>
@@ -12,10 +12,31 @@
 		>
 			DOC
 		</button>
-		<button class="button">JSON</button>
-		<button class="button">DTD</button>
-		<button class="button">XML</button>
-		<button class="button">XSL</button>
-		<pre id="textArea"></pre>
+		<button
+			class="button"
+			onclick="showContent('EvidentaAgentieFotomodeleHanghiucMircea.json')"
+		>
+			JSON
+		</button>
+		<button
+			class="button"
+			onclick="showContent('EvidentaAgentieFotomodeleHanghiucMircea.dtd')"
+		>
+			DTD
+		</button>
+		<button
+			class="button"
+			onclick="showContent('EvidentaAgentieFotomodeleHanghiucMircea.xml')"
+		>
+			XML
+		</button>
+		<button
+			class="button"
+			onclick="showContent('EvidentaAgentieFotomodeleHanghiucMircea.xsl')"
+		>
+			XSL
+		</button>
+		<br />
+		<pre id="textArea" class="code hide"></pre>
 	</body>
 </html>

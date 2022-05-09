@@ -1,5 +1,19 @@
+const textArea = document.getElementById("textArea");
+
 function showContent(filename) {
-	console.log(readTextFile(filename));
+	fetch(`https://mirceah99.github.io/proiect-xis/${filename}`)
+		.then((response) => response.body)
+		.then((body) => {
+			const reader = body.getReader();
+			reader.read().then((r) => {
+				let string = new TextDecoder().decode(r.value);
+				string = string.replaceAll("<", "&lt;");
+				string = string.replaceAll(">", "&gt;");
+				textArea.classList.remove("hide");
+				console.log(string);
+				textArea.innerHTML = string;
+			});
+		});
 }
 
 function readTextFile(file) {
