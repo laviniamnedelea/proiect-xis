@@ -214,5 +214,7 @@ async function applyXsl() {
 	// document
 	// 	.getElementById("displayXsl")
 	// 	.insertAdjacentHTML("beforeend", resultDocument);
-	window.open(url, "_blank").focus();
+	window
+		.open("https://mirceah99.github.io/proiect-xis/xmlWithXsl.xml", "_blank")
+		.focus();
 }
